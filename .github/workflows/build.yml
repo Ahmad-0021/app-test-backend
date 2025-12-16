@@ -20,6 +20,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build and Push Image
-        run: |
-          docker build -t yourdockeruser/app-test-backend:latest .
-          docker push yourdockeruser/app-test-backend:latest
+  run: |
+    docker build -t yourdockeruser/app-test-backend:latest .
+    docker push yourdockeruser/app-test-backend:latest
