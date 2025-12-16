@@ -1,0 +1,37 @@
+# Dependencies
+/node_modules
+.npm
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example # Keep the example file in version control
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Build and output directories
+/dist
+/build
+/out
+.cache
+.parcel-cache
+
+# Testing and debugging
+/coverage
+.nyc_output
+/test-results.xml
+.node_repl_history
+
+# Editor/IDE specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+# Uncomment the following line if you want to ignore all .vscode files
+# .vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
